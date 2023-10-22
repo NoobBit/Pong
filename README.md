@@ -11,11 +11,18 @@ Each player has to hit the ball with their paddle until the other misses it. Who
 
 ![image](https://github.com/NoobBit/Pong/assets/82334654/b2bfe47b-0eed-4917-93c2-f1a960fefb6d)
 
-## Building
+## Installation
+1. On the left panel, click the Releases.
+
+2. Scroll down and download the .zip.
+
+3. Extract the zip, read Readme.md, and run pong.exe
+
+**Enjoy!**
+
+## Building from Source
 1. Clone the repository: `git clone https://github.com/NoobBit/Pong.git` or `gh repo clone NoobBit/Pong` or just download the zip and extract.
 
 2. Navigate to the directory and run `g++ src/*.cpp res/*.res -o pong.exe -s static -Iinclude/ -L lib/ -lraylib -lopengl32 - lgdi32 -lwinmm`.
 
 3. Run `pong.exe`
-
-**Enjoy!**
